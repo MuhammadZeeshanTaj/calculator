@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('background.jpg') center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#calculator{
+    flex: 0 0 60%;
+    
+}
+#screen{
+    width: 100%;
+    font-size: 5rem;
+    padding: 1rem;
+    border: none;
+    background: rgb(38, 51, 54);
+    color: #eee;
+    outline: none;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.btn{
+    padding: 0.5rem 0.3rem;
+    font-size: 3rem;
+    color: #eee;
+    cursor: pointer;
+    border: 1px solid rgb(38, 51, 54);
+    outline: none;
+    transition: background;
+    transition-duration: 1s;
+}
+.btn:hover{
+    background-color: rgb(66, 61, 61);
+}
+.btn-gray{
+    background-color: rgb(182, 171, 171);
+}
+.btn-orange{
+    background-color: rgb(241, 165, 52);
+}
+#equal, #clear{
+    padding: 0.5rem 0.3rem;
+    font-size: 3rem;
+    color: #eee;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(38, 51, 54);
+    transition: background;
+    transition-duration: 1s;
+}
+#equal:hover, #clear:hover{
+    background-color: rgb(66, 61, 61);
+}
