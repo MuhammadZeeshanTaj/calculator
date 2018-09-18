@@ -1,0 +1,15 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d calculator"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://MuhammadZeeshanTaj.github.io/calculator",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
